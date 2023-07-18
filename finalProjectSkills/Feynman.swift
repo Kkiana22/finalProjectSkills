@@ -1,5 +1,5 @@
 //
-//  blurtingMethod.swift
+//  Feynman.swift
 //  finalProjectSkills
 //
 //  Created by Scholar on 7/18/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct blurtingMethod: View {
+struct Feynman: View {
     var body: some View {
-        Text("Blurting Method")
+        Text("Feynman Technique")
     }
 }
 
-struct blurtingMethod_Previews: PreviewProvider {
+struct Feynman_Previews: PreviewProvider {
     static var previews: some View {
-        blurtingMethod()
+        Feynman()
     }
 }

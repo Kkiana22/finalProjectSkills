@@ -1,5 +1,5 @@
 //
-//  blurtingMethod.swift
+//  Pomo.swift
 //  finalProjectSkills
 //
 //  Created by Scholar on 7/18/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct blurtingMethod: View {
+struct Pomo: View {
     var body: some View {
-        Text("Blurting Method")
+        Text("Pomodoro Method")
     }
 }
 
-struct blurtingMethod_Previews: PreviewProvider {
+struct Pomo_Previews: PreviewProvider {
     static var previews: some View {
-        blurtingMethod()
+        Pomo()
     }
 }
