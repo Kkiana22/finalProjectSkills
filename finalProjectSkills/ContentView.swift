@@ -9,18 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack{
+         
+            VStack{
+                NavigationLink(destination: blurtingMethod()) {
+                    Text("Blurting Method")
+                }
+            }
+            HStack{
+                Image("Blurting")
+                    .resizable(resizingMode:
+                            .stretch)
+                    .aspectRatio(contentMode:.fit)
+                    .frame(width:150)
+                
+                Image(
+            }
         }
-        .padding()
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

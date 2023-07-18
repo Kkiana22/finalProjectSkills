@@ -11,6 +11,8 @@
 		BDABD1012A66FFEA00A1A7E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDABD1002A66FFEA00A1A7E2 /* ContentView.swift */; };
 		BDABD1032A66FFEB00A1A7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDABD1022A66FFEB00A1A7E2 /* Assets.xcassets */; };
 		BDABD1062A66FFEB00A1A7E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDABD1052A66FFEB00A1A7E2 /* Preview Assets.xcassets */; };
+		BDABD10F2A6701DC00A1A7E2 /* blurtingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDABD10E2A6701DC00A1A7E2 /* blurtingMethod.swift */; };
+		BDABD1112A67048400A1A7E2 /* Spacedrep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDABD1102A67048400A1A7E2 /* Spacedrep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BDABD1002A66FFEA00A1A7E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDABD1022A66FFEB00A1A7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDABD1052A66FFEB00A1A7E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDABD10E2A6701DC00A1A7E2 /* blurtingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blurtingMethod.swift; sourceTree = "<group>"; };
+		BDABD1102A67048400A1A7E2 /* Spacedrep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacedrep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BDABD0FE2A66FFEA00A1A7E2 /* finalProjectSkillsApp.swift */,
 				BDABD1002A66FFEA00A1A7E2 /* ContentView.swift */,
+				BDABD1102A67048400A1A7E2 /* Spacedrep.swift */,
+				BDABD10E2A6701DC00A1A7E2 /* blurtingMethod.swift */,
 				BDABD1022A66FFEB00A1A7E2 /* Assets.xcassets */,
 				BDABD1042A66FFEB00A1A7E2 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDABD1012A66FFEA00A1A7E2 /* ContentView.swift in Sources */,
+				BDABD1112A67048400A1A7E2 /* Spacedrep.swift in Sources */,
+				BDABD10F2A6701DC00A1A7E2 /* blurtingMethod.swift in Sources */,
 				BDABD0FF2A66FFEA00A1A7E2 /* finalProjectSkillsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
